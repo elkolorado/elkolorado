@@ -67,6 +67,40 @@ body {
     color: white;
 }
 
+.section a.button2, a.button2:visited {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: gray 1px solid;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.section a.button2:hover {
+    background: black;
+    color: white;
+}
+
+.section a.button3, a.button3:visited {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: gray 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* background: black; */
+
+}
+.section a.button3:hover {
+    background: black;
+    color: white;
+        border: gray 1px solid;
+}
+
+
+
+
 
 /*navbar*/
 .nav:focus{
@@ -140,6 +174,15 @@ body {
   z-index: 2;
   position: relative;
 }
+p.info2 {
+  z-index: 2;
+  position: relative;
+  text-align: justify;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 .footer {
   padding: 15px;
   background: black;
